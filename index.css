@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    flex-direction:column;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:20px 30px;
+    background-color: white;
+    position: fixed;
+    width:97%;
+}
+#logo img{
+    width:150px;
+}
+nav a{
+    color:gray;
+    text-decoration:none;
+    margin:0 40px;
+}
+nav a:hover{
+    color:black;
+    text-decoration:underline;
+    text-decoration-color: rgb(82,67,192);
+    text-decoration-thickness: 4px;
+    cursor:pointer;
+}
+#account button{
+    font-size:13px;
+    color:rgb(82,67,192);
+    background-color:rgb(255,216,219);
+    border:none;
+    padding:20px 35px;
+    border-radius:20px;
+}
+#landing-section{
+    display:flex;
+    flex-direction: row;
+    padding:0 30px 0 100px;
+    margin-top:150px;
+}
+#left-section{
+    width:40%;
+    padding:20px;
+    margin-left: 90px;
+}
+#right-section{
+    width: 60%;
+    margin-left:200px;
+    margin-right: 90px;
+}
+#right-section img{
+    width:100%;
+}
+#text-section h1{
+    font-size:80px;
+    margin:0;
+}
+#text-section h1 span div{
+    color:rgb(82,67,192);
+    width:13px;
+    height:13px;
+    background-color: rgb(82,67,192);
+    display:inline-block;
+}
+#text-section p{
+    width:540px;
+    color:gray;
+}
+#btn-section button{
+    font-size:13px;
+    background-color:rgb(82,67,192);
+    color:rgb(255,216,219);
+    border:none;
+    padding:20px 35px;
+    border-radius:20px;    
+}
+#btn-section{
+    width:300px;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+#hover-section{
+    margin-top:40px;
+}
+#color1{
+    width:40px;
+    height:15px;
+    background-color: pink;
+    border-radius: 8px;
+}
+
+#color2{
+    width:40px;
+    height:15px;
+    background-color: orange;
+    border-radius: 8px;
+}
+
+#color3{
+    width:40px;
+    height:15px;
+    background-color: blue;
+    border-radius: 8px;
+}
+
+#color4{
+    width:40px;
+    height:15px;
+    background-color: red;
+    border-radius: 8px;
+}
+td{
+    padding-right: 45px;
+    
+}
+tr{
+    background-color: rgb(248,248,248);
+    border-radius: 8px;
+    border-spacing: 5px;
+   
+}
+table{
+    border-collapse: collapse;
+    border-radius: 8px;
+    border-spacing: 5px;
+}
+tr:hover{
+    background-color: white;
+    cursor:pointer;
+}
